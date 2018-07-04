@@ -96,6 +96,7 @@ public class JpaConfiguration {
 	 */
 	private Properties jpaProperties() {
 		Properties properties = new Properties();
+		System.out.println("::: from jpaProperties :::");
 		properties.put("hibernate.dialect", environment.getRequiredProperty("datasource.sampleapp.hibernate.dialect"));
 		properties.put("hibernate.hbm2ddl.auto", environment.getRequiredProperty("datasource.sampleapp.hibernate.hbm2ddl.method"));
 		properties.put("hibernate.show_sql", environment.getRequiredProperty("datasource.sampleapp.hibernate.show_sql"));
