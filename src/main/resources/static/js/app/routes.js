@@ -7,8 +7,9 @@ app.config(['$stateProvider', '$urlRouterProvider',
         
 	 $stateProvider.state('moneytransfer', {
             url: '/moneytransfer',
-            template: '<p>Hello World !!</p>'
-            
+            templateUrl: 'partials/moneytransfer',
+            	controller:'MTController',
+                controllerAs:'mtctrl'
            
         })
         

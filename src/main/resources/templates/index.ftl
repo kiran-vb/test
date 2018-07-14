@@ -2,7 +2,7 @@
 
 <html lang="en" ng-app="crudApp">
     <head>
-        <title>${title}</title>
+    <title>${title}</title>
         <link href="css/bootstrap.css" rel="stylesheet"/>
         <link href="css/app.css" rel="stylesheet"/>
     </head>
@@ -15,7 +15,14 @@
         <script src="js/lib/ngStorage.min.js"></script>
         <script src="js/app/app.js"></script>
          <script src="js/app/routes.js"></script>
+         
+         
         <script src="js/app/UserService.js"></script>
+        <script src="js/app/service/MTService.js"></script>
+        
+        
         <script src="js/app/UserController.js"></script>
+        <script src="js/app/MTController.js"></script>
+        
     </body>
 </html>
